@@ -19,4 +19,8 @@ RUN pip install IPython pandas
 RUN sed -i -e "s/display(HTML(table))/with open('result.html', 'w') as file:\n            file.write(HTML(table).data)/" /opt/conda/lib/python3.9/site-packages/towhee/functional/mixins/display.py
 
 # Set user workdir
-WORKDIR /app
+WORKDIR /data
+# Copy entrypoint
+COPY app.py /entrypoint.py
+# Set entrypoint
+CMD ["python", "/entrypoint.py"]
