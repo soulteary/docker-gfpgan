@@ -12,6 +12,10 @@ It's easy to use:
 docker pull soulteary/docker-gfpgan
 ```
 
+Take a sip of water, wait a few seconds, the magic will appear:
+
+![](./screenshots/preview.png)
+
 ## Docker Images
 
 - soulteary/docker-gfpgan:latest
