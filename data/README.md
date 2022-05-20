@@ -1,6 +1,6 @@
 # Description of picture catalog
 
-Pictures are sorted alphabetically by name, different resolutions are included, but none are good examples of sharpness.
+The pictures in the current directory are only used for testing, you can replace the content according to actual needs.
 
 - Audrey Hepburn (442x467px)
     - Image Source: https://huaban.com/pins/36196348
@@ -12,3 +12,5 @@ Pictures are sorted alphabetically by name, different resolutions are included, 
     - Image Source: https://zhidao.baidu.com/question/1545466877536329707.html
 - Lu Xun (660x479px)
     - Image Source: https://www.163.com/dy/article/GBOESPQV0543L37L.html
+
+Pictures are sorted alphabetically by name, different resolutions are included, but none are good examples of sharpness.
