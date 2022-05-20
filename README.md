@@ -12,7 +12,16 @@ It's easy to use:
 docker pull soulteary/docker-gfpgan
 ```
 
-Take a sip of water, wait a few seconds, the magic will appear:
+Mount the `model` and the `images` to be processed to the container:
+
+```bash
+docker run --rm -it -v `pwd`/model/GFPGANCleanv1-NoCE-C2.pth:/GFPGAN.pth -v `pwd`/data:/data soulteary/docker-gfpgan:2022.05.20
+
+# Or with version
+# docker run --rm -it -v `pwd`/model/GFPGANCleanv1-NoCE-C2.pth:/GFPGAN.pth -v `pwd`/data:/data soulteary/docker-gfpgan:2022.05.20
+```
+
+Take a sip of water, wait a few seconds, the magic will appear (`./data/result.html`):
 
 ![](./screenshots/preview.png)
 
