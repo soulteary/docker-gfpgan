@@ -2,6 +2,8 @@
 
 The pictures in the current directory are only used for testing, you can replace the content according to actual needs.
 
+![](../screenshots/pictures.png)
+
 - Audrey Hepburn (442x467px)
     - Image Source: https://huaban.com/pins/36196348
 - Bruce Lee (670x488px)
