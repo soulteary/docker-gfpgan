@@ -6,4 +6,4 @@ RUN pip install gfpgan==1.3.8 realesrgan==0.3.0 facexlib==0.3.0 gradio==3.39.0
 WORKDIR /app
 COPY src/app.py ./
 
-CMD ["python", "/app.py"]
+CMD ["python", "app.py"]
