@@ -2,6 +2,22 @@
 
 腾讯 ARC 实验室 GFPGAN Docker 运行方案。
 
+![](.github/compare.jpg)
+
+## 项目预览
+
+第二篇教程相关：
+
+![](.github/first-look.jpg)
+
+![](.github/gfpgan-full-options.jpg)
+
+第一篇教程相关：
+
+![](.github/pictures.png)
+
+![](.github/preview.png)
+
 ## 使用方法
 
 下载代码，执行脚本，构建镜像：
